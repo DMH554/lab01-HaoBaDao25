@@ -15,3 +15,7 @@ def test_unknown():
 
 def test_empty():
     assert reply("   ") == "Please type a question."
+
+
+def test_good_morning():
+    assert "Hello" in reply("Good morning!")
